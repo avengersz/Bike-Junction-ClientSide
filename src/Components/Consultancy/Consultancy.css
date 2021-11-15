@@ -1,0 +1,65 @@
+.img-holder {}
+
+.support-area {
+    position: relative;
+    background: #f5f5f5;
+    background-color: gray;
+}
+
+.support-area * {
+    position: relative;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-xs-12 {
+    width: 100%;
+    float: left;
+}
+
+.support-area .support-content {
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.support-content .single-item:hover .icon-holder i {
+    background: #272727;
+    color: #fff;
+}
+
+.support-content .single-item .icon-holder i {
+    float: right;
+    margin-right: 20px;
+}
+
+.support-area .support-content {
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+div {
+    display: block;
+}
+
+.support-area:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(190, 184, 184);
+    display: block;
+    opacity: .95;
+}
+
+.content {
+    padding-left: 500px;
+}
