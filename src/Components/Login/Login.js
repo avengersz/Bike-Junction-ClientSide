@@ -60,7 +60,8 @@ const Login = () => {
                         {authError && <Alert severity="error">{authError}</Alert>}
                     </form>
                     <p>------------------------</p>
-                    <Button onClick={handleGoogleSignIn} variant="contained"> <i className="fab fa-google me-2"></i> Sign In</Button>
+                    {/* <Button onClick={handleGoogleSignIn} variant="contained"> <i className="fab fa-google me-2"></i> Sign In</Button> */}
+                    <button className="btn btn-outline-primary" onClick={handleGoogleSignIn} variant><img src="https://i.ibb.co/mRvYX9k/google-logo.png"/>Login with Google</button>
                 </Grid>
             </Grid>
         </Container>
