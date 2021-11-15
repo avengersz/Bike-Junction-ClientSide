@@ -17,7 +17,7 @@ fetch ('https://gentle-oasis-77041.herokuapp.com/products')
         <div className="row text-center">
         <div className="col-md-12">
     
-        <div className="row g-4 row-cols-1 row-cols-md-4 ms-2 row-solve">
+        <div className="row g-4 row-cols-1 row-cols-md-3 ms-2 row-solve">
               
         {course.map ( sub => <Product key= {sub._id} sub={sub}></Product>)}
               

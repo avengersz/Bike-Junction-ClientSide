@@ -55,8 +55,8 @@ const Header = () => {
               {!admin && <Dropdown.Item> <Link to="/myorder" className='sub-dropdowns'>My Orders</Link></Dropdown.Item>}
               {!admin &&<Dropdown.Item> <Link to="/review" className='sub-dropdowns'>Review</Link></Dropdown.Item>}
               {!admin &&  <Dropdown.Item> <Link to="/makeadmin" className='sub-dropdowns'>Make an Admin</Link></Dropdown.Item>}
-              {/* {!admin &&  <Dropdown.Item> <Link to="/manageorder" className='sub-dropdowns'>Manage Orders </Link></Dropdown.Item>}
-             {admin &&   <Dropdown.Item> <Link to="/newservice" className='sub-dropdowns'>Add A New Service </Link></Dropdown.Item>} */}
+               {!admin &&  <Dropdown.Item> <Link to="/addProducts" className='sub-dropdowns'>Add Products</Link></Dropdown.Item>}
+             {/* {admin &&   <Dropdown.Item> <Link to="/newservice" className='sub-dropdowns'>Add A New Service </Link></Dropdown.Item>} */}
                { user.email ?
          <button onClick={handleLogOut} className="btn bg-white ms-3 text-info">Log Out</button> 
          :  

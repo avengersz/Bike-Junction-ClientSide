@@ -20,6 +20,7 @@ import MakeAdmin from './../src/MakeAdmin/MakeAdmin';
 import Payment from './Payment/Payment';
 import Review from './Review/Review';
 import NotFound from './Components/NotFound/NotFound';
+import AddProducts from './Components/AddProducts/AddProducts';
 
 function App() {
   return (
@@ -74,6 +75,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/review">
             <Review></Review>
+            </PrivateRoute>
+            <PrivateRoute path="/addProducts">
+              <AddProducts/>
             </PrivateRoute>
             
             <Route path="*">

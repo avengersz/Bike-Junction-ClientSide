@@ -62,11 +62,6 @@ const MyOrders = () => {
               <td>{BR?.email}</td>
               <td>{BR?.date}</td>
               <td>{BR?.status}</td>
-            
-              
-             
-              
-              
               <td>
               <Button onClick={() => handleRemove(BR._id)}> Cancel Order </Button>
               </td>
